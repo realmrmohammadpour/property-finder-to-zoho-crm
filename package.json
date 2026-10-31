@@ -1,0 +1,12 @@
+{
+  "name": "property-finder-zoho-public-reference",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Generalized Cloudflare Worker reference for signed lead webhooks and Zoho CRM",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check src/core.js && node --check src/zoho.js"
+  },
+  "engines": { "node": ">=20" }
+}
